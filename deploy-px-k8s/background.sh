@@ -16,4 +16,5 @@ if [ -f /root/.kube/start ]; then
   /root/.kube/start
 fi
 
+ssh root@node03 'systemctl stop kubelet'
 
