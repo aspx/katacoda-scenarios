@@ -1,8 +1,8 @@
 {
     "pathwayTitle": "Kubernetes",
     "icon": "fa-kubernetes",
-    "title": "Install Portworx on Kubernetes",
-    "description": "Install Portworx on Kubernetes",
+    "title": "Upgrade Kubernetes",
+    "description": "Upgrade a 3 node Kubernetes",
     "difficulty": "Intermediate",
     "details": {
         "steps": [
