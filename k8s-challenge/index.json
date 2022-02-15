@@ -28,6 +28,6 @@
       "hidesidebar": true
     },
     "backend": {
-      "imageid": "portworx-kubernetes-running:1.13"
+      "imageid": "portworx-kubernetes-running:1.21"
     }
   }
