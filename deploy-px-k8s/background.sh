@@ -17,7 +17,6 @@ if [ -f /root/.kube/start ]; then
 fi
 
 # Wait for the 4 nodes 
-while [[ $(kubectl get nodes | wc -l) != "5" ]]; do sleep 1; done
-
-ssh root@node03 'systemctl stop kubelet'
+#while [[ $(kubectl get nodes | wc -l) != "5" ]]; do sleep 1; done
+#ssh root@node03 'systemctl stop kubelet'
 

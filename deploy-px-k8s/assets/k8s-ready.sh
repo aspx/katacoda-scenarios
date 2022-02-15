@@ -3,8 +3,6 @@
 echo
 echo "Please wait while a script sets up the lab..."
 
-# Adding google key
-curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 
 # Running script.
 while [ ! -f /root/.kube/config ]
